@@ -6,7 +6,7 @@
 namespace Ui {
 class DepartmentView;
 }
-
+//
 class DepartmentView : public QWidget
 {
     Q_OBJECT
