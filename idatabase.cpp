@@ -9,7 +9,7 @@ void IDatabase::initDatabase()
     database.setDatabaseName(afilename); // 设置数据库名称
 
     if (!database.open()) { // 打开数据库
-        qDebug() << "failed to open database";
+        //qDebug() << "failed to open database";
     } else {
         qDebug() << "open database is ok";
     }
